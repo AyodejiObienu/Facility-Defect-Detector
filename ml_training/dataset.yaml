@@ -1,0 +1,22 @@
+# Facility Anomaly Detection Dataset Configuration
+# ─────────────────────────────────────────────────
+# Place your labeled images in the directories below.
+# Use tools like Roboflow, CVAT, or LabelImg to annotate.
+
+path: ./dataset  # Root directory
+train: images/train
+val: images/val
+test: images/test  # Optional
+
+# Class definitions
+# Classes with "_broken" suffix are treated as anomalies
+nc: 8
+names:
+  0: bunk_normal
+  1: bunk_broken
+  2: fan_normal
+  3: fan_broken
+  4: chair_normal
+  5: chair_broken
+  6: table_normal
+  7: table_broken
