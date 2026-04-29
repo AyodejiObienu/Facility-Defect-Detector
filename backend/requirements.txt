@@ -1,0 +1,21 @@
+# FastAPI & Server
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+aiofiles==24.1.0
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.1
+
+# ML / Vision
+ultralytics==8.3.57
+opencv-python-headless==4.10.0.84
+Pillow==11.1.0
+numpy==2.2.2
+
+# Utilities
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+httpx==0.28.1
